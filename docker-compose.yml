@@ -1,0 +1,9 @@
+version: '3'
+services:
+  my-service-name:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./dev_ws:/dev_ws
+    command: sleep infinity

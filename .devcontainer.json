@@ -1,0 +1,14 @@
+// See https://aka.ms/vscode-remote/devcontainer.json for format details.
+{
+	"name": "My Project",
+    "dockerComposeFile": "docker-compose.yml",
+    "service": "my-service-name",
+	"workspaceFolder": "/dev_ws",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"ms-python.python"
+			]
+		}
+	}
+}
